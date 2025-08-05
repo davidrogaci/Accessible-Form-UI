@@ -4,3 +4,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* ESTILOS PARA LOS ELEMENTOS DEL FORMULARIO */
+
+li {
+  list-style: none;
+}
+
+ul {
+  border-radius: 10px;
+  background-color: gainsboro;
+  padding: 15px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  gap: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
