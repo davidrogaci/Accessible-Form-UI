@@ -6,16 +6,6 @@
 }
 /* ESTILOS PARA LOS ELEMENTOS DEL FORMULARIO */
 
-li {
-  list-style: none;
-}
-
-ul {
-  border-radius: 10px;
-  background-color: gainsboro;
-  padding: 15px;
-}
-
 main {
   display: flex;
   flex-direction: row;
