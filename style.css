@@ -14,10 +14,66 @@ main {
   width: 100%;
   height: 100vh;
   gap: 20px;
+  border: 1px solid black;
 }
 
 form {
   display: flex;
   flex-direction: column;
   align-items: start;
+  gap: 10px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  gap: 5px;
+}
+
+/* ESTILOS PARA LOS ELEMENTOS DEL PROGRESS BAR */
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-progress-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  position: relative;
+  overflow: hidden;
+}
+
+.circular-progress-bar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(#af704c 72% 72%, transparent 72% 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress-text {
+  position: relative;
+  font-size: 1.2em;
+  color: rgb(20, 20, 20);
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  border-radius: 10px;
+  background-color: gainsboro;
+  padding: 15px;
 }
