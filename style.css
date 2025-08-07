@@ -97,19 +97,22 @@ input {
 
 li {
   list-style: none;
-}
-
-ul :first-child p {
-  text-decoration: line-through;
-  color: #975bbe;
-}
-ul :nth-child(2) p {
-  text-decoration: line-through;
-  color: #975bbe;
+  padding: 3px;
 }
 
 ul {
   border-radius: 10px;
   background-color: gainsboro;
   padding: 15px;
+  height: 200px;
+}
+
+ul :first-child p {
+  text-decoration: line-through;
+  color: #975bbe;
+}
+
+ul :nth-child(2) p {
+  text-decoration: line-through;
+  color: #975bbe;
 }
